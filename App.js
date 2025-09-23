@@ -6,8 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Tiago dos Santos Balestra</Text>
-      <meunome />{
-      return}
+      <meunome />
       <StatusBar style="auto" />
     </View>
   );
