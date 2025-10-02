@@ -12,6 +12,11 @@ return <text style={[style,estilo]}> {children} </text>
 
 const estilos = stylesheet.create({
     texto:{
+        fontfamily:'montoserratRegular',
+        fontWheight: 'normal',
+},
+textoNegrito:{
+    fontfamily:
 
 
 }
