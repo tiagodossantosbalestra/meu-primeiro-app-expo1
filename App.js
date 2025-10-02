@@ -1,22 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import meunome from './componentes/primeirocomponente';
+import { SafeAreaView } from 'react-native-web';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Tiago dos Santos Balestra</Text>
-      <meunome />
-      <StatusBar style="auto" />
-    </View>
+ <SafeAreaView>
+  <StatusBar />
+ </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
