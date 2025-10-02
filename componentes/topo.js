@@ -13,5 +13,15 @@ export defult function topo({titulo}){
 const estilos = style StyleSheet.create({
 
     topo:{
-        width: "100%"
-    }
+        width: "100%",
+        height:578/786 * width,
+    },
+        width:"100%",
+        position: "absolute",
+        textAlign:"center",
+        fontsize: 16,
+        color: 'white',
+        fontWeight: "bold",
+        padding: 16,
+}
+});
